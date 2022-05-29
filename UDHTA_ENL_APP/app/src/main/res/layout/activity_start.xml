@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#00BCD4"
+    tools:context=".TaiKhoan.Start">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/line_1"
+            android:layout_width="20dp"
+            android:layout_height="270dp"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/e" />
+
+        <View
+            android:id="@+id/line_2"
+            android:layout_width="25dp"
+            android:layout_height="250dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_1"
+            android:background="@drawable/n" />
+
+        <View
+            android:id="@+id/line_3"
+            android:layout_width="20dp"
+            android:layout_height="220dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_2"
+            android:background="@drawable/g" />
+
+        <View
+            android:id="@+id/line_4"
+            android:layout_width="20dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_3"
+            android:background="@drawable/l" />
+
+        <View
+            android:id="@+id/line_5"
+            android:layout_width="20dp"
+            android:layout_height="230dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_4"
+            android:background="@drawable/i" />
+
+        <View
+            android:id="@+id/line_6"
+            android:layout_width="20dp"
+            android:layout_height="240dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_5"
+            android:background="@drawable/s" />
+
+        <View
+            android:id="@+id/line_7"
+            android:layout_width="25dp"
+            android:layout_height="200dp"
+            android:layout_marginLeft="8dp"
+            android:layout_toRightOf="@id/line_6"
+            android:background="@drawable/h" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/imv_EN"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:src="@drawable/image_en" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom">
+
+            <TextView
+                android:id="@+id/tvAdrApp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:layout_marginBottom="50dp"
+                android:fontFamily="@font/aclonica"
+                android:gravity="center"
+                android:textColor="@color/black"
+                android:text="Android App"
+                android:textSize="24sp" />
+        </RelativeLayout>
+
+    </LinearLayout>
+</LinearLayout>

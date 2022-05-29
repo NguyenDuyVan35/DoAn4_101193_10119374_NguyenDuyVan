@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0ffff"
+    tools:context=".HocTap.CDDodunghoctap.TestCDddht.ChCdddhtActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:background="#add8e6">
+
+        <ImageView
+            android:layout_width="40dp"
+            android:layout_height="50dp"
+            android:src="@drawable/ic_baseline_back" />
+
+        <TextView
+            android:id="@+id/textViewTimeddht"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="10:00"
+            android:textColor="@color/red"
+            android:textSize="30dp" />
+
+        <TextView
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="4dp"
+            android:layout_centerVertical="true"
+            android:text="Exit"
+            android:gravity="center"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="428dp"
+        android:layout_marginTop="5dp">
+
+        <TextView
+            android:id="@+id/tvqs"
+            android:layout_width="397dp"
+            android:layout_height="396dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_item_listview"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:id="@+id/tvNDquestiondd"
+            android:layout_width="wrap_content"
+            android:layout_height="69dp"
+            android:layout_below="@+id/rcQuestion"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="11dp"
+            android:layout_marginRight="17dp"
+            android:text="I have a beautidull 5-year-old ... named Linh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvdichcauhoidd"
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:layout_below="@id/tvNDquestiondd"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_item_listview"
+            android:text="Tôi có một người em họ 5 tuổi xinh xắn tên là Linh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <RelativeLayout
+            android:id="@+id/rcQuestion"
+            android:layout_width="wrap_content"
+            android:layout_height="36dp">
+
+            <TextView
+                android:id="@+id/tvquestion"
+                android:layout_width="wrap_content"
+                android:layout_height="36dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginStart="135dp"
+                android:layout_marginEnd="137dp"
+                android:background="@drawable/bg_question"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="Question    "
+                android:textColor="@color/black"
+                android:textSize="18dp" />
+
+            <TextView
+                android:id="@+id/tvquestionbddht"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_alignEnd="@+id/tvquestion"
+                android:layout_marginEnd="13dp"
+                android:fontFamily="@font/archivo_black"
+                android:gravity="center"
+                android:text="1"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+        </RelativeLayout>
+
+
+        <ImageView
+            android:id="@+id/imageAnhddht"
+            android:layout_width="wrap_content"
+            android:layout_height="118dp"
+            android:layout_below="@id/tvdichcauhoidd"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="96dp"
+            android:layout_marginTop="-7dp"
+            android:layout_marginEnd="73dp" />
+
+        <TextView
+            android:id="@+id/tvgc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imageAnhddht"
+            android:layout_marginLeft="20dp"
+            android:text="Ghi chú"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvghichuQddht"
+            android:layout_width="345dp"
+            android:layout_height="49dp"
+            android:layout_below="@id/tvgc"
+            android:layout_marginLeft="30dp"
+            android:paddingLeft="10dp"
+            android:text="Anh chị em họ"
+            android:textColor="#454343"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA1ddht"
+        android:onClick="ClickDA1ddht"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan1ddht"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA2ddht"
+        android:onClick="ClickDA2ddht"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan2ddht"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA3ddht"
+        android:onClick="ClickDA3ddht"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan3ddht"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA4ddht"
+        android:onClick="ClickDA4ddht"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan4ddht"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#e0ffff"
+    tools:context=".Kiemtra.BaiKT3.Bai3Activity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="20dp"
+        android:background="#add8e6">
+
+
+        <TextView
+            android:id="@+id/tvtimeBai3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_centerHorizontal="true"
+            android:gravity="center"
+            android:text="10:00"
+            android:textColor="@color/red"
+            android:textSize="30dp" />
+
+        <TextView
+            android:id="@+id/Exitbai3"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="4dp"
+            android:gravity="center"
+            android:text="Exit"
+            android:textColor="@color/black"
+            android:textSize="30dp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="334dp"
+        android:layout_marginTop="30dp">
+
+        <TextView
+            android:id="@+id/tvqs"
+            android:layout_width="401dp"
+            android:layout_height="281dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="10dp"
+            android:background="@drawable/bg_item_listview"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+
+        <TextView
+            android:id="@+id/tvCauhoibai3"
+            android:layout_width="377dp"
+            android:layout_height="143dp"
+            android:layout_below="@+id/tvdiembai3"
+            android:layout_alignStart="@+id/tvqs"
+            android:layout_alignEnd="@+id/tvqs"
+            android:layout_marginStart="1dp"
+            android:layout_marginLeft="17dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="-1dp"
+            android:layout_marginRight="17dp"
+            android:background="@drawable/bg_edt"
+            android:paddingLeft="20dp"
+            android:paddingTop="30dp"
+            android:paddingRight="20dp"
+            android:text="I have a beautidull 5-year-old ... named Linh"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/tvquestionbai3"
+            android:layout_width="100dp"
+            android:layout_height="30dp"
+            android:layout_below="@id/tvdiembai3"
+            android:layout_alignStart="@+id/tvqs"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="0dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="260dp"
+            android:background="@drawable/bg_question1"
+            android:gravity="center"
+            android:text="Question 1"
+            android:textColor="@color/black"
+            android:textSize="20dp" />
+
+        <TextView
+            android:id="@+id/tvdiembai3"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginStart="135dp"
+            android:layout_marginEnd="137dp"
+            android:background="@drawable/bg_question"
+            android:fontFamily="@font/archivo_black"
+            android:gravity="center"
+            android:text="0"
+            android:textColor="@color/black"
+            android:textSize="18dp" />
+
+        <ImageView
+            android:id="@+id/imvanhCHbai3"
+            android:layout_width="254dp"
+            android:layout_height="110dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginEnd="71dp"
+            android:layout_marginBottom="46dp" />
+
+
+    </RelativeLayout>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA1bai3"
+        android:onClick="ClickDA1b3"
+        android:layout_width="match_parent"
+        android:layout_marginTop="20dp"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan1bai3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA2bai3"
+        android:onClick="ClickDA2b3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan2bai3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA3bai3"
+        android:onClick="ClickDA3bai3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan3bai3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cadviewDA4bai3"
+        android:onClick="ClickDA4bai3"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_row="0"
+        android:layout_gravity="fill"
+        android:layout_margin="10dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="8dp">
+        <TextView
+            android:id="@+id/tvdapan4bai3"
+            android:layout_gravity="center"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Đáp án 1"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </androidx.cardview.widget.CardView>
+
+
+</LinearLayout>

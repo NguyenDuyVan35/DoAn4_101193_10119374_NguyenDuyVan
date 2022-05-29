@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#e0ffff"
+    tools:context=".Kiemtra.BaiKT3.KetthucBai3Activity">
+
+
+    <RelativeLayout
+        android:id="@+id/relativelayout1"
+        android:layout_width="match_parent"
+        android:layout_height="420dp">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:layout_marginLeft="65dp"
+            android:src="@drawable/win" />
+
+        <RelativeLayout
+            android:id="@+id/relativelayouta"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="100dp">
+
+            <com.mikhaellopez.circularprogressbar.CircularProgressBar
+                android:id="@+id/circularProgressBarKTB3"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cpb_background_progressbar_color="@color/red"
+                app:cpb_background_progressbar_width="15dp"
+                app:cpb_progress_direction="to_right"
+                app:cpb_progress_max="20"
+                app:cpb_progressbar_color="@color/light_blue"
+                app:cpb_progressbar_width="15dp"
+                app:cpb_round_border="false" />
+
+
+            <RelativeLayout
+                android:layout_width="100dp"
+                android:layout_height="39dp"
+                android:layout_above="@+id/resultTextbai3"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="74dp"
+                android:layout_marginBottom="19dp"
+                android:gravity="center">
+
+                <TextView
+                    android:id="@+id/tenBaikt1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:text="Bài"
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+
+                <TextView
+                    android:id="@+id/tenBaikt"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_toEndOf="@+id/tenBaikt1"
+                    android:text="3"
+
+                    android:textColor="@color/black"
+                    android:textSize="30dp" />
+            </RelativeLayout>
+
+            <TextView
+                android:id="@+id/resultTextbai3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
+                android:text="0/10"
+                android:textColor="@color/black"
+                android:textSize="30dp" />
+        </RelativeLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayoutdiem"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/relativelayouta"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Điểm:"
+                android:textColor="@color/black"
+                android:textSize="40dp" />
+
+            <TextView
+                android:id="@+id/diembai3"
+                android:layout_width="200dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="0"
+                android:textColor="@color/purple_700"
+                android:textSize="40dp" />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/relativelayout1">
+
+        <pl.droidsonroids.gif.GifImageView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:src="@drawable/anhwin" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:gravity="center"
+            android:layout_marginTop="220dp"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/btLamLaibai3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginRight="40dp"
+                android:background="@drawable/bg_button"
+                android:text="Làm lại"/>
+
+            <Button
+                android:id="@+id/btLuudiembai3"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginLeft="40dp"
+                android:background="@drawable/bg_button"
+                android:text="Lưu điểm" />
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

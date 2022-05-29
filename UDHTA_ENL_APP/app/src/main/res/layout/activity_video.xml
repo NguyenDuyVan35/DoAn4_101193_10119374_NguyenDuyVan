@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".VideoActivity">
+
+    <TextView
+        android:layout_width="700dp"
+        android:layout_height="330dp"
+        android:layout_marginLeft="-90dp"
+        android:layout_marginTop="-150dp"
+        android:layout_marginRight="-90dp"
+        android:background="@drawable/background_home"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:paddingVertical="70dp"
+        android:textColor="#CFD7D8"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/title_home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:fontFamily="cursive"
+        android:gravity="center_horizontal"
+        android:text="Video"
+        android:textColor="#CFD7D8"
+        android:textSize="39sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/bg_backgroumd"
+        android:layout_below="@+id/title_home">
+
+        <TextView
+            android:id="@+id/buttonVideo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/alice"
+            android:gravity="center"
+            android:text="Danh Sách Video"
+            android:textColor="@color/black"
+            android:textSize="30dp" />
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recyclerViewVideo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@+id/buttonVideo"
+            android:padding="10dp" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

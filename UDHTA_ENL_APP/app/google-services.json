@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "594156948140",
+    "firebase_url": "https://udhocen-default-rtdb.firebaseio.com",
+    "project_id": "udhocen",
+    "storage_bucket": "udhocen.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594156948140:android:407aad3db171735c492d09",
+        "android_client_info": {
+          "package_name": "com.example.ud_hta_cd2"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594156948140-91o87fo3np3err40gb4e9nd305ls6uni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSWSCl-dlXy_MF8nCRIn1ksjrc5nrC6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594156948140-91o87fo3np3err40gb4e9nd305ls6uni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:594156948140:android:907db6ec6c82d576492d09",
+        "android_client_info": {
+          "package_name": "com.example.udhta_enl_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "594156948140-91o87fo3np3err40gb4e9nd305ls6uni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBZSWSCl-dlXy_MF8nCRIn1ksjrc5nrC6Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "594156948140-91o87fo3np3err40gb4e9nd305ls6uni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

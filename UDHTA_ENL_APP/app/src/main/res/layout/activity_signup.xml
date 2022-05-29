@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/background_signup"
+    tools:context=".TaiKhoan.SignupActivity">
+
+    <TextView
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arbutus"
+        android:text="Sign up"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#ff69b4"/>
+
+    <EditText
+        android:id="@+id/edtEmaildk"
+        android:layout_marginTop="150dp"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Name"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/edtPassworddk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Password"
+        android:layout_marginTop="10dp"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_edt"
+        android:padding="10dp"
+        android:password="true"
+        android:textColorHint="@color/black"/>
+    <EditText
+        android:id="@+id/edtConfirmPassworddk"
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:hint="Confirm Password"
+        android:background="@drawable/bg_edt"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:password="true"
+        android:textColorHint="@color/black"/>
+    <Button
+        android:id="@+id/btSignup"
+        android:layout_marginTop="150dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Signup"
+        android:layout_gravity="center"
+        android:background="@drawable/bg_button"/>
+
+
+</LinearLayout>
